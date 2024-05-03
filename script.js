@@ -3,7 +3,7 @@ let chi = document.getElementById("level")
 
 let level = 0
 
-while(chi.parentNode){
+while(chi.parentNode!=null){
 	level++
 	chi=chi.parentNode
 }
